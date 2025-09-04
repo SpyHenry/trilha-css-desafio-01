@@ -174,34 +174,34 @@ footer .dio-logo {
 
 /* ================= RESPONSIVIDADE ================= */
 
+#transform-world {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  background: url("../images/woman-code.png") center center / cover no-repeat fixed;
+  border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+  min-height: 560px;
+  padding: 40px 10%; 
+}
+
+#transform-world p {
+  font-weight: 900;
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  text-transform: lowercase;
+  max-width: 350px;
+  text-shadow: 3px 2px #33A8DB;
+}
+
 @media (max-width: 768px) {
   #transform-world {
     background-attachment: scroll;
     min-height: 400px;
     padding: 20px;
-    justify-content: center;        
   }
 
   #transform-world p {
-    font-size: 2rem;
-    text-align: center;
+    max-width: 100%;  
   }
 }
 
-@media (max-width: 480px) {
-  #transform-world {
-    min-height: 300px;
-    padding: 15px;
-  }
-
-  #transform-world p {
-    font-size: 1.5rem;
-  }
-}
-
-footer a {
-  color: #33A8DB;
-  font-weight: bold;
-  text-decoration: none;
-
-}
