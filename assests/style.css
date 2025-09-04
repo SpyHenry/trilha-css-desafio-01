@@ -172,8 +172,36 @@ footer .dio-logo {
   width: 300px;
 }
 
+/* ================= RESPONSIVIDADE ================= */
+
+@media (max-width: 768px) {
+  #transform-world {
+    background-attachment: scroll;
+    min-height: 400px;
+    padding: 20px;
+    justify-content: center;        
+  }
+
+  #transform-world p {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #transform-world {
+    min-height: 300px;
+    padding: 15px;
+  }
+
+  #transform-world p {
+    font-size: 1.5rem;
+  }
+}
+
 footer a {
   color: #33A8DB;
   font-weight: bold;
   text-decoration: none;
+
 }
